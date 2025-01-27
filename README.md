@@ -1,6 +1,6 @@
-<h1 align="center"><img width="460" src="https://github.com/balena-io/wifi-connect/raw/master/docs/images/wifi-connect.png" /></h1>
+<h1 align="center"><img width="460" src="https://github.com/aj-ats/ATS-wifi-connect/blob/master/ui/src/img/logo.png" /></h1>
 
-> Easy WiFi setup for Linux devices from your mobile phone or laptop
+> this project is forked from balenaOS/wifi-connect and was eddited for ATS
 
 WiFi Connect is a utility for dynamically setting the WiFi configuration on a Linux device via a captive portal. WiFi credentials are specified by connecting with a mobile phone or laptop to the access point that WiFi Connect creates.
 
