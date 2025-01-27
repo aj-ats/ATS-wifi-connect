@@ -26,6 +26,7 @@ if [ $? -eq 0 ]; then
     printf 'Skipping WiFi Connect\n'
 else
     printf 'Starting WiFi Connect\n'
+    # -s flag is ssid .  can configure to use env on host machine ie $Gateway_label_identifier
     ./wifi-connect -s R429
 fi
 
