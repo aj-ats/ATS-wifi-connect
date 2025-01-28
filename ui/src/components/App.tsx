@@ -4,6 +4,7 @@ import { Navbar, Provider, Container } from 'rendition';
 import { NetworkInfoForm } from './NetworkInfoForm';
 import { Notifications } from './Notifications';
 import { createGlobalStyle } from 'styled-components';
+import Counter from './Counter';
 
 const GlobalStyle = createGlobalStyle`
 	body {
@@ -18,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
 	code {
 		font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 	}
+	
 `;
 
 export interface NetworkInfo {
@@ -95,6 +97,7 @@ const App = () => {
 					availableNetworks={availableNetworks}
 					onSubmit={onConnect}
 				/>
+				<Counter />
 			</Container>
 		</Provider>
 	);

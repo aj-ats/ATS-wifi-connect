@@ -21,7 +21,8 @@ pub fn init() {
             }
         };
 
-        builder.format(format).filter(None, LogLevelFilter::Info);
+        builder.
+        ormat(format).filter(None, LogLevelFilter::Info);
 
         builder.parse("wifi-connect=info,iron::iron=off");
     }

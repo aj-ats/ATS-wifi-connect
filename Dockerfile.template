@@ -12,7 +12,7 @@ ARG VERSION="latest"
 WORKDIR /usr/src/app
 
 RUN \
-    export BASE_URL="https://github.com/balena-os/wifi-connect/releases" &&\    
+    export BASE_URL="https://github.com/aj-ats/ATS-wifi-connect/releases/" &&\    
     case $BALENA_ARCH in \
         "aarch64") \
             BINARY_ARCH_NAME="aarch64-unknown-linux-gnu" ;; \
